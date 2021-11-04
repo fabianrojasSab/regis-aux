@@ -2,12 +2,12 @@ import React from "react";
 
 export const Head = props => (
     <div className ="container-fluid">
-        <div className ="row">
-            <div className="col ">
+        <div className ="row" id="head" >
+            <div className="col" id="izq">
                 <p className="text-left">Left aligned text on all viewport sizes.</p>
             </div>
-            <div className="col ">
-                <p className="text-end">Right aligned text on all viewport sizes.</p>
+            <div className="col" id="der" >
+                <p className="text-end" >FECHA</p>
             </div>
         </div>
         
