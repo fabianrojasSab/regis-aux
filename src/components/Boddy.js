@@ -1,20 +1,20 @@
 import React from "react";
 
-export const Tittle = props =>(
-    <div id="container">
+export const Boddy = props =>(
+    <div className="container" id="body">
         <div className="row">
-            <div>
-
+            <div className="col text-center">
+                <h1>Regis-Aux</h1>
             </div>
         </div >
         <div className="row">
-            <div>
-
+            <div className="col text-center">
+                <p>user name</p>
             </div>
         </div>
-        <div>
-            <div>
-
+        <div className="row">
+            <div className="col text-center">
+                <button>iniciar</button>
             </div>
         </div>
     </div>
